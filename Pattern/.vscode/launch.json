@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/A2Z_DSA/Pattern",
-      "program": "c:/A2Z_DSA/Pattern/build/Debug/outDebug",
+      "cwd": "c:/DSA/A2Z_DSA/Pattern",
+      "program": "c:/DSA/A2Z_DSA/Pattern/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
