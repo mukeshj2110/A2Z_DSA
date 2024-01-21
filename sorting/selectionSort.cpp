@@ -42,19 +42,19 @@ int main(){
 
 // [13,46,24,52,20,9] 
 
-// s1-> [13,46,24,52,20,9]  9 is min , in first iteration of inner for loop from 13 -> 9 found min as 9 store the min index & swap 13 & 9 ()
+// s1-> [13,46,24,52,20,9]  9 is min , in first iteration of outer for loop from 13 -> 9 found min as 9 store the min index & swap 13 & 9 ()
 //        |             |
 //        swap         swap
-// s2 -> [9,46,24,52,20,13]  13 is min , in second iteration of inner for loop from 46 -> 13 found min as 13 store the min index & swap 13 & 46
+// s2 -> [9,46,24,52,20,13]  13 is min , in second iteration of outer for loop from 46 -> 13 found min as 13 store the min index & swap 13 & 46
 //           |           |
 //           swap       swap
-// s3 -> [9,13,24,52,20,46]  20 is min , in second iteration of inner for loop from 24 -> 46 found min as 20 store the min index & swap 24 & 20
+// s3 -> [9,13,24,52,20,46]  20 is min , in second iteration of outer for loop from 24 -> 46 found min as 20 store the min index & swap 24 & 20
 //             |      |
 //             swap  swap
-// s4 -> [9,13,20,52,24,46]  24 is min , in second iteration of inner for loop from 52 -> 46 found min as 24 store the min index & swap 24 & 52
+// s4 -> [9,13,20,52,24,46]  24 is min , in second iteration of outer for loop from 52 -> 46 found min as 24 store the min index & swap 24 & 52
 //                 |  |
 //              swap  swap
-// s5 -> [9,13,20,24,52,46]  46 is min , in second iteration of inner for loop from 52 -> 46 found min as 46 store the min index & swap 46 & 52
+// s5 -> [9,13,20,24,52,46]  46 is min , in second iteration of outer for loop from 52 -> 46 found min as 46 store the min index & swap 46 & 52
 //                   |  |
 //                swap  swap
 // s6 -> [9,13,20,24,46,52]  final result as sorted array
